@@ -1,0 +1,8 @@
+# Cache do Python
+
+*.pyc
+
+# Cache do Pytest
+
+# VS Code
+.vscode/
