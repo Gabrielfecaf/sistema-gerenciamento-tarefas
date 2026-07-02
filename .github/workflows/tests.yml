@@ -27,4 +27,4 @@ jobs:
           pip install pytest
 
       - name: Executar testes
-        run: PYTHONPATH=src pytest
+        run: PYTHONPATH=src pytest   # ← ESSA É A LINHA QUE MUDA
