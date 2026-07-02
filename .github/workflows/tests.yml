@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-
   pull_request:
     branches:
       - main
@@ -28,4 +27,4 @@ jobs:
           pip install pytest
 
       - name: Executar testes
-        run: pytest
+        run: PYTHONPATH=src pytest
