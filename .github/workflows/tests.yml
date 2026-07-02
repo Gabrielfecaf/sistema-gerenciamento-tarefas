@@ -27,4 +27,4 @@ jobs:
           pip install pytest
 
       - name: Executar testes
-        run: PYTHONPATH=src pytest   # ← ESSA É A LINHA QUE MUDA
+        run: pytest   # sem PYTHONPATH, porque o pytest.ini vai cuidar disso
